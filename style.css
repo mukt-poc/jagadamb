@@ -72,7 +72,9 @@ header .container-fluid
 .logo
 {
     background: none;
+    z-index: 1000;
     border: 0px;
+    position : fixed;
 }
 
 .jumbotron
@@ -206,3 +208,21 @@ footer p
 
 
 /**menu**/
+.item{
+    margin: 5px;
+}
+.item-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+.item-desc{
+    font-size: 15px;}
+.rt-tobottom{
+        color: #FFF;
+    font-family: FontAwesome;
+    content: "\f103";
+    z-index: 99;
+    font-size: 3.5em;
+    /* opacity: 0.25; */
+    margin-top: -80px;
+}
